@@ -1,0 +1,6 @@
+GET http://localhost:5000/count-requests
+
+###
+
+POST http://localhost:5000/reset-counter
+Content-Type: aplication/json
