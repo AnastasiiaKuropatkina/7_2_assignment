@@ -15,25 +15,25 @@ Before you begin, ensure you have the following installed:
 - Flask
 
 You can install Flask using pip:
-``
+```bash
 pip install Flask
-``
+```
 
 Run the Flask application:
-``
+```bash
 python app.py
-``
+```
 
 The Flask development server will start, and the application will be accessible at `http://localhost:5000`.
 
-## Usage
+### Usage
 - To increment the request counter, send a GET request to `/count-requests`. You can do this by visiting `http://localhost:5000/count-requests` in your web browser.
 
 - To reset the request counter to 0, send a POST request to `/reset-counter`. This can be done using a tool like Postman or with the following curl command:
 
-``
+```bash
 curl -X POST http://localhost:5000/reset-counter
-``
+```
 ## Contributing
 Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
